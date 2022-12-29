@@ -22,7 +22,7 @@ const BillInput = ({ perPerson, setPerPerson }) => {
       <input
         className=" w-full bg-veryLightGrayishCyan focus:outline-strongCyan hover:outline-strongCyan px-6 p-2 text-veryDarkCyan text-inputFontSize text-right"
         id="bill"
-        type="text"
+        type="number"
         inputMode="numeric"
         value={perPerson.bill}
         placeholder="0"
