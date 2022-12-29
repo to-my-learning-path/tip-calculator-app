@@ -3,6 +3,7 @@
 @layer base {
   body {
     @apply bg-lightGrayishCyan;
+    @apply font-spaceMono;
   }
 }
 
